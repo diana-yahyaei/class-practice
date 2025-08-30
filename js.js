@@ -1,3 +1,4 @@
+"use strict";
 // console.log("2" + 5 - 6 + "1");
 // console.log("123" < 56);
 // console.log("12" * "2");
@@ -29,37 +30,75 @@
 //     break;
 // }
 // -----------------------------------------------------------------------
-const input = prompt("enter a number");
-console.log(input);
-let grad;
+// const input = prompt("enter a number");
+// console.log(input);
+// let grad;
 
-if (input >= 91 && input <= 100) {
-  grad = "a";
-} else if (input >= 81 && input <= 90) {
-  grad = "b";
-} else if (input >= 71 && input <= 80) {
-  grad = "c";
-} else if (input >= 61 && input <= 70) {
-  grad = "d";
-} else if (input >= 0 && input <= 60) {
-  grad = "e";
-} else {
-  console.log("not in range");
-}
-switch (grad) {
-  case "a":
-    console.log("well");
-    break;
-  case "b":
-    console.log("yes");
-    break;
-  case "c":
-    console.log("more");
-    break;
-  case "d":
-    console.log("no");
-    break;
-  case "e":
-    console.log("bad");
-    break;
-}
+// if (input >= 91 && input <= 100) {
+//   grad = "a";
+// } else if (input >= 81 && input <= 90) {
+//   grad = "b";
+// } else if (input >= 71 && input <= 80) {
+//   grad = "c";
+// } else if (input >= 61 && input <= 70) {
+//   grad = "d";
+// } else if (input >= 0 && input <= 60) {
+//   grad = "e";
+// } else {
+//   console.log("not in range");
+// }
+// switch (grad) {
+//   case "a":
+//     console.log("well");
+//     break;
+//   case "b":
+//     console.log("yes");
+//     break;
+//   case "c":
+//     console.log("more");
+//     break;
+//   case "d":
+//     console.log("no");
+//     break;
+//   case "e":
+//     console.log("bad");
+//     break;
+// }
+// ----------------------------------------------------------------------
+// const firstName = "mehrnosh";
+// const age = 19;
+
+// let message;
+// if (age >= 18) {
+//   message = "is adult";
+// } else {
+//   message = "";
+// }
+// // let message=age>=18?'is adult':'';🥰
+// // اولی درست دومی اشتباه
+// console.log(`${firstName} is ${age} ${message}`);
+// // توی داخل لاگ expretion عه ولی کلش نه استیتمنته
+// -----------------------------------------------------------------------
+// function caluclate(birthYear) {
+//   const age = 1404 - birthYear;
+//   return age;
+// }
+// console.log(caluclate(1380));
+// ---------------------------------------------------------------------------
+
+// function caluclateDiscount(amount, discount) {
+//   let discountAmount = amount * discount;
+//   const totalPrice = amount - discountAmount;
+//   return totalPrice;
+// }
+// console.log(caluclateDiscount(1000, 0.5));
+//---------------------------------------------------------------
+// function checkNumber(number) {
+//   if (number % 2 === 0) {
+//     return "even";
+//   } else {
+//     return "odd";
+//   }
+// }
+// console.log(checkNumber(9));
+//------------------------------------------------------------------
